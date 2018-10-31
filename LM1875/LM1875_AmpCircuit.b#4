@@ -129,6 +129,8 @@
 <wire x1="75.87" y1="48.26" x2="75.87" y2="80" width="0" layer="20"/>
 <wire x1="75.87" y1="80" x2="16.51" y2="80" width="0" layer="20"/>
 <wire x1="16.51" y1="80" x2="16.51" y2="48.26" width="0" layer="20"/>
+<dimension x1="16.51" y1="80.518" x2="75.946" y2="80.518" x3="46.228" y3="83.566" textsize="1.778" layer="20"/>
+<dimension x1="76.454" y1="80.01" x2="76.454" y2="48.26" x3="81.534" y3="64.135" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="Audio-Power-amlifier V.2.0">
@@ -1716,7 +1718,6 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="X2" pad="1"/>
-<wire x1="21.59" y1="67.31" x2="22.86" y2="67.31" width="1.016" layer="16" curve="-90"/>
 <wire x1="21.59" y1="67.31" x2="24.13" y2="69.85" width="1.016" layer="16" curve="-90"/>
 <wire x1="21.59" y1="67.31" x2="24.13" y2="69.85" width="2.286" layer="16" curve="-90"/>
 <wire x1="24.13" y1="69.85" x2="27.94" y2="69.85" width="2.286" layer="16"/>

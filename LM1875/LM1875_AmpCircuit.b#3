@@ -129,6 +129,8 @@
 <wire x1="75.87" y1="48.26" x2="75.87" y2="80" width="0" layer="20"/>
 <wire x1="75.87" y1="80" x2="16.51" y2="80" width="0" layer="20"/>
 <wire x1="16.51" y1="80" x2="16.51" y2="48.26" width="0" layer="20"/>
+<dimension x1="16.51" y1="80.518" x2="75.946" y2="80.518" x3="46.228" y3="83.566" textsize="1.778" layer="20"/>
+<dimension x1="76.454" y1="80.01" x2="76.454" y2="48.26" x3="81.534" y3="64.135" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="Audio-Power-amlifier V.2.0">
@@ -1627,7 +1629,6 @@ design rules under a new name.</description>
 <contactref element="X1" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C7" pad="+"/>
-<wire x1="52.07" y1="70.485" x2="52.07" y2="67.31" width="1.016" layer="16"/>
 <wire x1="52.07" y1="67.31" x2="53.848" y2="67.31" width="2.286" layer="16"/>
 <wire x1="53.848" y1="67.31" x2="55.626" y2="65.532" width="2.286" layer="16"/>
 <wire x1="55.626" y1="65.532" x2="58.42" y2="62.738" width="2.286" layer="16"/>
@@ -1636,23 +1637,26 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="57.658" x2="53.34" y2="52.07" width="2.286" layer="16"/>
 <wire x1="55.626" y1="65.532" x2="55.626" y2="60.452" width="2.286" layer="16"/>
 <wire x1="55.626" y1="60.452" x2="55.88" y2="60.198" width="2.286" layer="16" curve="90"/>
+<wire x1="52.07" y1="67.31" x2="52.07" y2="70.485" width="2.286" layer="16"/>
+<wire x1="52.07" y1="70.485" x2="52.07" y2="69.088" width="2.286" layer="16"/>
+<wire x1="52.07" y1="69.088" x2="53.848" y2="67.31" width="2.286" layer="16"/>
 </signal>
 <signal name="V-">
 <contactref element="IC2" pad="3"/>
 <contactref element="X1" pad="3"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C6" pad="-"/>
-<wire x1="48.26" y1="70.485" x2="48.26" y2="67.31" width="1.016" layer="16"/>
 <wire x1="48.26" y1="67.31" x2="46.482" y2="67.31" width="2.286" layer="16"/>
 <wire x1="46.482" y1="67.31" x2="44.45" y2="65.278" width="2.286" layer="16"/>
 <wire x1="44.45" y1="65.278" x2="41.91" y2="62.738" width="2.286" layer="16"/>
 <wire x1="41.91" y1="62.738" x2="44.577" y2="60.071" width="2.286" layer="16"/>
 <wire x1="44.577" y1="60.071" x2="48.26" y2="56.388" width="2.286" layer="16"/>
 <wire x1="48.26" y1="56.388" x2="48.26" y2="52.07" width="2.286" layer="16"/>
-<wire x1="44.45" y1="65.278" x2="44.45" y2="61.722" width="2.286" layer="16"/>
-<wire x1="44.45" y1="61.722" x2="44.45" y2="60.198" width="2.286" layer="16"/>
+<wire x1="44.45" y1="65.278" x2="44.45" y2="60.198" width="2.286" layer="16"/>
 <wire x1="44.45" y1="60.198" x2="44.577" y2="60.071" width="2.286" layer="16" curve="90"/>
-<wire x1="44.45" y1="61.722" x2="44.45" y2="61.722" width="2.286" layer="16"/>
+<wire x1="48.26" y1="67.31" x2="48.26" y2="70.485" width="2.286" layer="16"/>
+<wire x1="48.26" y1="70.485" x2="48.26" y2="69.088" width="2.286" layer="16"/>
+<wire x1="48.26" y1="69.088" x2="46.482" y2="67.31" width="2.286" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="X1" pad="2"/>
